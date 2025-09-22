@@ -1,0 +1,41 @@
+@charset "utf-8";
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    background-color: #1b0e0ed0;
+    color: #0e0e0e;
+}
+
+header {
+    background-color: #ffffff;
+    max-width: 900px;
+    height: 700px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+header, p
+
+h1, h2 {
+    color: #615303;
+}
+
+.ReJ {
+    color: blue;
+    font-style: italic;
+}
+
+#rEj {
+    color: rgb(2, 110, 252);
+}
+
+i {
+    color: red;
+    text-decoration: underline;
+}
+
+footer, p, a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
