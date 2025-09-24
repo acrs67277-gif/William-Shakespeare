@@ -4,23 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obra do autor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.1em;
+            color: black;
+            background-color: #ccc;
+        }
+
+        header {
+            background-color: #fff;
+            max-width: 970px;
+            max-height: 200em;
+            margin: auto;
+        }
+
+        #p-1 {
+            color: blue;
+        }
+
+        #p-2 {
+            color: red;
+        }
+
+        h1, h2, h3 {
+            background-color: blue;
+            color: yellow;
+            font-family: serif;
+        }
+
+        footer, p a {
+            text-decoration: none;
+            background-color: #ffffff00;
+            color: red;
+            text-align: center;
+
+        }
+
+        .l-1, li {
+            list-style: none;
+            color: rgb(250, 13, 230);
+        }
+    </style>
 </head>
 <body>
     <header>
-            <p>
+            <p id="p-1">
                 William Shakespeare escreveu um vasto número de peças, 
                 que são geralmente classificadas em três gêneros principais: comédias, ragédias e peças históricas. 
                 A contagem exata pode variar, mas a maioria dos estudiosos concorda em cerca de 39 peças.
             </p>
         <h1>​Aqui está uma lista completa, categorizada por gênero:</h1>
         <h2>​Comédias</h2>
-            <p>
+            <p id="p-2">
                 ​As comédias de Shakespeare geralmente terminam com casamentos, 
                 reconciliações e um senso de alegria. Elas são famosas por seu humor inteligente, 
                 trocadilhos e enredos complexos.
             </p>
         <h3>A Comédia dos Erros</h3>
-            <ul>
+            <ul class="l-1">
                 <li>​Dois Cavaleiros de Verona</li>
                 <li>​Trabalhos de Amor Perdidos</li>
                 <li>​Sonho de uma Noite de Verão</li>
@@ -38,7 +80,7 @@
                 <li>​A Tempestade</li>
             </ul>
         <h3>​Tragédias</h3>
-            <p>
+            <p id="p-2">
                 ​As tragédias shakespearianas são marcadas por um final sombrio, 
                 geralmente com a morte do protagonista. Elas exploram temas como paixão, 
                 vingança, ciúme, ambição e loucura
@@ -57,7 +99,7 @@
                 <li>​Tróilo e Créssida</li>
                 <li>​Peças Históricas</li>
             </ul>
-            <p>
+            <p id="p-2">
                 ​Essas peças narram a vida de reis e figuras históricas da Inglaterra. 
                 Embora baseadas em fatos, elas também contêm elementos de ficção e 
                 drama para criar uma narrativa envolvente.
@@ -71,7 +113,7 @@
                 <li>​Ricardo III</li>
                 <li>​Henrique VIII</li>
             </ul>
-            <p>
+            <p id="p-2">
                 ​É importante notar que a autoria de algumas peças, como Os Dois Nobres Parentes, 
                 é objeto de debate, pois se acredita que Shakespeare as escreveu em colaboração com outros dramaturgos. 
                 Além de suas peças, Shakespeare também é conhecido por seus sonetos e poemas.

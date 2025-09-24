@@ -35,7 +35,7 @@ i {
     text-decoration: underline;
 }
 
-footer, p, a {
+footer, a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(214, 166, 8);
 }
