@@ -23,14 +23,14 @@
             margin: 8px;
         }
 
-        #ReJ {
-            color: #8400ff;
+        header > h1 {
+            background-color: #8400ff;
+            color: #fff;
+            padding: 8px;
         }
 
-        h2 {
-            color: #000;
-            background-color: #8400ff;
-            padding: 8px;
+        header > #ReJ {
+            color: #fcfcfc;
         }
 
         section {
@@ -40,11 +40,61 @@
             border-radius: 0.5em;
         }
 
+        section > h2 {
+            color: #818283;
+            background-color: gold;
+            padding: 3px;
+            margin: 3px;
+            border: 1px solid black;
+            border-radius: 7px 0px 7px 0px;
+        }
+
+        section > p {
+            color: #fcfcfc;
+            background-color: #70000063;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 7px 0px 7px 0px;
+        }
+
+        section > p i {
+            color: aqua;
+        }
+
         main {
             background-color: darkgray;
             padding: 16px;
             margin: 10px;
             border-radius: 0.5em;
+        }
+
+        main > ol {
+            background: darkblue;
+            color: whitesmoke;
+            text-align: justify;
+            padding: 9px;
+        }
+
+        main p#ReJ-I {
+            color: #b906b0;
+            margin: 8px;
+        }
+
+        main > div ul li {
+            list-style: none;
+            border: 1px solid #fff;
+            border-radius:  7px 0px 7px 0px;
+            box-shadow: 1px 1px 2px 2px #0000003d;
+            padding: 6px;
+            margin: 6px;
+            text-align: justify;
+        }
+
+        h2 {
+            background-color: #000;
+            color: #fcfcfc;
+            padding: 7px;
         }
 
         footer {
@@ -60,14 +110,16 @@
     <header>
         <h1>Romeu e Julieta</h1>
             <p id="ReJ">
-                O autor da famosa tragédia Romeu e Julieta é o dramaturgo e poeta inglês William Shakespeare.
+                O autor da famosa tragédia Romeu e Julieta é o dramaturgo e poeta inglês 
+                William Shakespeare.
             </p>
     </header>
 
         <section>
             <h2>​Quem foi William Shakespeare?</h2>
             <p>
-                ​Shakespeare é amplamente considerado o maior escritor da língua inglesa e o mais proeminente dramaturgo do mundo. 
+                ​Shakespeare é amplamente considerado o maior escritor da língua inglesa e o mais 
+                proeminente dramaturgo do mundo. 
                 Ele nasceu em Stratford-upon-Avon, na Inglaterra, em 1564, e faleceu em 1616. <br>
                 ​Sua obra é composta por cerca de 39 peças de teatro, 154 sonetos e vários poemas. 
                 Entre suas peças mais conhecidas estão Hamlet, Macbeth, Otelo, Rei Lear e, claro, Romeu e Julieta.
@@ -100,35 +152,35 @@
             mas a maioria dos estudiosos concorda em cerca de 39 peças.
         </ol>
 
-            <p>​Aqui está uma lista completa, categorizada por gênero:</p>
+            <p id="ReJ-I">​Aqui está uma lista completa, categorizada por gênero:</p>
 
-        <h1>​Comédias</h1>
-            <p>
+        <h2>​Comédias</h2>
+            <p id="ReJ-I">
                 ​As comédias de Shakespeare geralmente terminam com casamentos, reconciliações e um 
                 senso de alegria. Elas são famosas por seu humor inteligente, trocadilhos e enredos complexos.
             </p>
         <div>
             <ul>
-                <li>​A Comédia dos Erros</li>
-                <li>​Dois Cavaleiros de Verona</li>
-                <li>​Trabalhos de Amor Perdidos</li>
-                <li>​Sonho de uma Noite de Verão</li>
-                <li>​O Mercador de Veneza</li>
-                <li>​As Alegres Comadres de Windsor</li>
-                <li>​Muito Barulho por Nada</li>
-                <li>​Como Gostais</li>
-                <li>​Noite de Reis</li>
-                <li>​Bem Está o que Bem Acaba</li>
-                <li>​Medida por Medida</li>
-                <li>​A Megera Domada</li>
-                <li>​O Conto do Inverno</li>
-                <li>​Cimbelino</li>
-                <li>​Péricles, Príncipe de Tiro</li>
-                <li>​A Tempestade</li>
+                <li><a href="https://pt.wikipedia.org/wiki/A_Com%C3%A9dia_dos_Erros" target="_self" rel="next">​A Comédia dos Erros</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/The_Two_Gentlemen_of_Verona" target="_self" rel="next">Dois Cavaleiros de Verona</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Love%27s_Labour%27s_Lost" target="_self" rel="next">Trabalhos de Amor Perdidos</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Sonho_de_uma_Noite_de_Ver%C3%A3o" target="_self" rel="next">Sonho de uma Noite de Verão</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/O_Mercador_de_Venezatarget" target="_self" rel="next">O Mercador de Veneza</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/The_Merry_Wives_of_Windsor" target="_self" rel="next">As Alegres Comadres de Windsor</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Muito_Barulho_por_Nada" target="_self" rel="next">Muito Barulho por Nada</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Como_Gostais" target="_self" rel="next">Como Gostais</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Noite_de_Reis" target="_self" rel="next">Noite de Reis</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Bem_Est%C3%A1_O_Que_Bem_Acaba" target="_self" rel="next">Bem Está o que Bem Acaba</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Medida_por_Medida" target="_self" rel="next">Medida por Medida</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/The_Taming_of_the_Shrew_(pe%C3%A7a_teatral)" target="_self" rel="next">A Megera Domada</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Conto_do_Inverno" target="_self" rel="next">O Conto do Inverno</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Cimbelino" target="_self" rel="next">Cimbelino</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/P%C3%A9ricles,_Pr%C3%ADncipe_de_Tiro" target="_self" rel="next">Péricles, Príncipe de Tiro</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/A_Tempestade" target="_self" rel="next">A Tempestade</a></li>
             </ul>
         </div>
         <h2>​Tragédias</h2>
-            <p>
+            <p id="ReJ-I">
                 As tragédias shakespearianas são marcadas por um final sombrio, geralmente com a morte do 
                 rotagonista. Elas exploram temas como paixão, vingança, ciúme, ambição e loucura.
             </p>
@@ -148,7 +200,7 @@
                 <li>​Peças Históricas</li>
             </ul>
         </div>
-            <p>
+            <p id="ReJ-I">
                 ​Essas peças narram a vida de reis e figuras históricas da Inglaterra. 
                 Embora baseadas em fatos, elas também contêm elementos de ficção e drama 
                 para criar uma narrativa envolvente.
@@ -164,7 +216,7 @@
                 <li>​Henrique VIII</li>
             </ul>
         </div>
-        <p>
+        <p id="ReJ-I">
             ​É importante notar que a autoria de algumas peças, como Os Dois Nobres Parentes, 
             é objeto de debate, pois se acredita que Shakespeare as escreveu em colaboração 
             com outros dramaturgos. Além de suas peças, Shakespeare também é conhecido por seus 
